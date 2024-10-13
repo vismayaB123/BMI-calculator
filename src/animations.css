@@ -1,0 +1,13 @@
+.icon-animation {
+    animation: bounce 0.5s infinite alternate;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  
